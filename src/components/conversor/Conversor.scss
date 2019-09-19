@@ -1,0 +1,19 @@
+.conversor {
+    border: 1px solid #000;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 30px;
+    justify-content: center;
+    &__input {
+        border: 1px solid #ccc;
+        height: 30px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        padding: 20px 10px;
+    }
+    &__button {
+        height: 35px;
+    }
+}
