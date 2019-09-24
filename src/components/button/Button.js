@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { css }  from 'styled-components';
 
-const Botao = styled.button`
+const StyledButton = styled.button`
     width: 100%;
     height: 50px;
     border: 0;
@@ -19,7 +19,7 @@ const Botao = styled.button`
 
 const Button = (props) => {
     return (
-        <Botao {...props} onClick={ props.buttonAction }>{ props.buttonText }</Botao>
+        <StyledButton {...props} onClick={ props.buttonAction }>{ props.buttonText }</StyledButton>
     )
 }
 
